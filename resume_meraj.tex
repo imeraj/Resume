@@ -20,6 +20,7 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
+
 \documentclass[10pt,a4paper]{article} % Font size (10-12pt) and paper size (a4paper, letterpaper, legalpaper, etc)
 
 \include{structure} % Include structure.tex which contains packages and document layout definitions
@@ -50,7 +51,7 @@ LinkedIn: \href{https://www.linkedin.com/in/merajenigma}{https://www.linkedin.co
 \vspace{-1.3em} % Reduce whitespace after the Summary heading and the two-column content
 
 \begin{multicols}{2}  % Start a two-column layout
-\noindent \textit{10+ years of industry and academic experience working with diverse technologies ranging from low level system software to mobile/web applications, project management, company strategy and policy making, along with new business development and introducing new technologies to meet dynamic nature of tech industry.\\
+\noindent \textit{About 10 years of industry and academic experience working with diverse technologies ranging from low-level system software to mobile/web applications, project management, company strategy and policy making, along with new business development and introducing new technologies to meet dynamic nature of tech industry.\\
 Have experience working in multiple countries - USA, Japan, India, South Korea and with clients from different countries - USA, South Korea, Japan, and Australia. Good verbal and written communication skills and comfortable working with colleagues and clients from diverse culture.}
 \end{multicols}
 
@@ -93,7 +94,7 @@ Have experience working in multiple countries - USA, Japan, India, South Korea a
 {Mar 2014 - May 2016}
 {\bodytext{
 \begin{itemize}
-\item Worked as Tech Lead of Samsung Gear and Gear Fit 2 Manager applications and managed  20+ team memebers
+\item Worked as Tech Lead of Samsung Gear S and Gear Fit Manager applications and managed  20+ team members
 \item Supervised multiple internal projects for iOS, Android and Tizen platforms - Log Analyzer, Emergency Service, TizenFlip, Samsung Guardian App, etc
 \item Managed small team of 3 members to contribution to open source project Linaro 
 \end{itemize}
@@ -230,9 +231,132 @@ WRT54GL router and integrating it with Xinu Kernel
 
 \spacedhrule{1.6em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
 
+%------------------------------------------------
+
+\roottitle{Professional Projects} % Top level section
+
+\headedsubsection
+{Earthcar Taxi App (iOS, Android)}
+{2017 (Ongoing)}
+{\bodytext{
+Uber like Taxi app for Earthcar (\href{http://www.earthcar.co.jp}{http://www.earthcar.co.jp}) Japan. Three different
+applications - User App (Android, Smartphone), User App (iOS, Smartphone) and Driver App (Android, Tab) along with backend APIs/services and front-end Admin panel.
+\begin{itemize}
+\item Worked as Tech Lead and Project Manager for mobile apps
+\item Conducted R\&D, designed app architecture, and guided engineers to implement features
+\item Derived project estimation from client requirements, broke down features into sprints, worked with QA Engineers to define test specifications
+\item Conducted code review and managed branch/release policies
+\item Collaborated with backend engineers for smooth integration of APIs/services with mobile apps
+\end{itemize}
+}}
+
+\headedsubsection
+{Askul E-commerce App (iOS, Android)}
+{2017}
+{\bodytext{
+E-commerce applications developed for Askul (\href{http://www.askul.co.jp}{http://www.askul.co.jp}) Japan. Two different applications - one for iOS and another for Android 
+\begin{itemize}
+\item Worked as Tech Lead and Project Manager for the project
+\item Conducted R\&D, designed app architecture, and guided developers to implement features
+\item Conducted code review and managed branch/release policies
+\item Backend APIs/services developed using Java (Spring Boot) by 3rd party in Japan
+\item Conducted regular meeting and status reporting with Japan side project stakeholders 
+\end{itemize}
+}}
+
+
+\headedsubsection
+{A2MILKBAR App (iOS, Android)}
+{2016}
+{\bodytext{
+Departmental store management app developed for Australian client. Two different applications - one for iOS and another for Android platform along with backend APIs/services and front-end Admin panel.
+\begin{itemize}
+\item Worked as Tech Lead and Project Manager for the project
+\item Conducted R\&D, designed app architecture, and guided developers to implement features
+\item Conducted code review and managed branch/release policies
+\item Backend APIs/services developed using PHP and Node.js
+\end{itemize}
+}}
+
+\headedsubsection
+{Samsung Gear S and Samsung Gear Fit Apps (iOS)}
+{2015-2016}
+{\bodytext{
+Developed commercial versions of Samsung Gear S and Gear Fit Apps to work with Tizen powered Gear S2 and Gear Fit 2.
+\begin{itemize}
+\item Developed in collaboration with Samsung HQ (South Korea)
+\item Conducted R\&D, designed and developed Basic Accessory Protocol (BAP) on top of Bluetooth Low Energy (BLE).
+      The protocol supports - file transfer with pause/resume/cancel, CRC and retransmission, QoS
+\item Designed and developed Webproxy module to support multiple Gear apps, such as - Weather, S-Voice, Voice Memo, etc
+\item Notifications using Apple Notification Center Service, along with notification settings, block notifications
+\item Samsung Gear S - \href{https://itunes.apple.com/us/app/samsung-gear-s/id1117310635?mt=8}{https://itunes.apple.com/us/app/samsung-gear-s/id1117310635?mt=8}
+\item Samsung Gear Fit - \href{https://itunes.apple.com/us/app/samsung-gear-fit/id1117312500?mt=8}{https://itunes.apple.com/us/app/samsung-gear-fit/id1117312500?mt=8}
+\end{itemize}
+}}
+
+%------------------------------------------------
+
+\spacedhrule{1.6em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%------------------------------------------------
+
+\roottitle{Academic Projects} % Top level section
+
+\headedsubsection
+{Porting (\href{https://github.com/xinu-os/xinu}{Xinu}) Operating System on Linksys WRT54GL Router}
+{2006-2007}
+{\bodytext{
+The purpose of the project is to port Xinu OS, developed at Purdue University, on a modified version of Linksys WRT54GL router. Linksys WRT54GL has BCM947XX chipset with MIPS processor (Broadcom's BCM3302) and comes with OpenWrt Linux distribution.
+\begin{itemize}
+\item Cisco \& Intel Funded
+\item Implemented exception and interrupt handler for the chipset and integrated it with Xinu
+\item Programmed timer interrupt and integrated it with Xinu's context switch code to enable kernel pre-emption and support process scheduling
+\item Implemented lower-half of interrupt driven asynchronous serial driver (UART 16550) for the router platform
+\item Implemented Ethernet device driver for Broadcom's BCM4713 card on this platform
+\item Implemented in C and MIPS assembly programming languages
+\item Github link - \href{https://github.com/xinu-os/xinu}{https://github.com/xinu-os/xinu}
+\end{itemize}
+}}
+
+\headedsubsection
+{Integrating Speex Codec in Columbia InterNet Extensible Multimedia Architecture (CINEMA)}
+{2005}
+{\bodytext{
+CINEMA is a set of SIP-based Internet Multimedia Servers for creating an Enterprise Telephony and Multimedia system. CINEMA consists of sipd (SIP redirect, proxy, and registrar server), sipconf (SIP Audio Conference Server), sipum (SIP/RTSP unified messaging system), sip323 (SIP-H.323 signaling gateway), rtspd (RTSP streaming media server).
+\begin{itemize}
+\item Integrated open source speex codec in sipconf conferencing server of CINEMA
+\item Supported two modes of speex codec - narrow-band (8KHz sampling rate) and wide-band (16KHz
+sampling rate)
+\item Fixed several bugs in existing conference server to make the codec work properly within CINEMA
+architecture
+\item Tested integration of speex codec using Linphone
+\item Implemented in C++ programming language
+\end{itemize}
+}}
+
+%------------------------------------------------
+
+\spacedhrule{1.6em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%------------------------------------------------
+
+\roottitle{Open Source Contribution} % Top level section
+
+\headedsubsection
+{Linaro Project - \href{http://www.linaro.org}{http://www.linaro.org}}
+{2015}
+{\bodytext{
+Led a team of 3 engineers for making contribution to Open Source project (\href{http://www.linaro.org}{Linaro}) - open source software for
+ARM SoCs and made decent contribution to their power management tools - powertop, powerdebug, idlestat, and pm-qa.
+}}
+
+%------------------------------------------------
+
+\spacedhrule{1.6em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
 %----------------------------------------------------------------------------------------
 \roottitle{Achievement/Awards} % Top level section
-\begin{tabular}{rll}
+\begin{longtable}{rll}
 2017	   &    Ranked 2nd in Monstar Lab ISUCON Tech Olympics (Web App Performance Tuning contest) \\
 2017   &     Promoted as CTO of Mobile Technology Division \\
 2015	   &    Won Employee of the Year Award (SRBD)\\
@@ -244,7 +368,9 @@ WRT54GL router and integrating it with Xinu Kernel
 1999-2003 &    Won Dean's List Award (BUET)\\
 1999-2003 &    Won University Merit Scholarship (BUET)\\
 1996-2003 &    Won Board Merit Scholarship (Bangladesh Government)
-\end{tabular}
+\end{longtable}
+
+
 
 %----------------------------------------------------------------------------------------
 %	INTERESTS SECTION
